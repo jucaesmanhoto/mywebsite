@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
-  <% end %>
+  <%= link_to root_path, class: "navbar-brand" do %>
+    <%#= image_tag "icone.svg" %>
+    <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
         <%= link_to "Messages", "#", class: "nav-link" %>
       </li>
       <li class="nav-item dropdown">
-        <%= image_tag "", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <%= link_to "Action", "#", class: "dropdown-item" %>
           <%= link_to "Another action", "#", class: "dropdown-item" %>
@@ -26,29 +26,3 @@
     </ul>
   </div>
 </div>
-
-<section class="home_banner">
-
-
-<div class='home_header'>
-  <%= link_to "About", welcome_about_path %>
-  <%#= link_to "Personal", welcome_personal_path %>
-  <%= image_tag "himeji-castle.png" %>
-  <%#= link_to "Professional", welcome_professional_path %>
-  <%= link_to "Contact", welcome_contact_path %>
-</div>
-
-
-<div class="home_banner-content">
-  <h1> Welcome to Cesar castle </h1>
-  <p>
-  I am a business professional with knowledge about many industries
-  and also a developer now like the matrix ones
-  </p>
-</div>
-
-<a class="button" href="#contact-form">Let's chat</a>
-
-</section>
-
-

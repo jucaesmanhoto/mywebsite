@@ -6,3 +6,37 @@
 body {
   background-color: #FAF7EB;
 }
+
+.home_container {
+  color: red;
+  word-break: break-all;
+  padding: 32px;
+}
+
+.home_banner .home_banner_content {
+  background-color: #2c786c;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 672px;
+  position: relative;
+  z-index: 10;
+}
+
+.home_banner .button {
+  background: #faf7eb;
+  color: #214261;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.home_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  position: relative;
+  z-index: 1;
+}
