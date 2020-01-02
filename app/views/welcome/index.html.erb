@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<!-- <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
     <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
   <% end %>
@@ -25,30 +25,50 @@
       </li>
     </ul>
   </div>
+</div> -->
+
+<div class="container_margin">
+
+  <section class="home_banner">
+
+    <div class='home_header'>
+      <%= link_to "About", welcome_about_path %>
+      <%#= link_to "Personal", welcome_personal_path %>
+      <%= image_tag "himeji-castle.png" %>
+      <%#= link_to "Professional", welcome_professional_path %>
+      <%= link_to "Contact", welcome_contact_path %>
+    </div>
+
+    <div class="home_banner-content">
+      <div class="home_title">
+        <h1> Welcome to Cesar castle </h1>
+      </div>
+      <div class="home_text">
+        <p>
+          I am a business professional with knowledge about many industries
+          and also a developer now like the matrix ones
+
+          Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.
+          Per aumento de cachacis, eu reclamis. Mais vale um bebadis conhecidiss,
+          que um alcoolatra anonimis. Todo mundo vê os porris que eu tomo, mas ninguém vê os
+          tombis que eu levo!
+
+          Si num tem leite então bota uma pinga aí cumpadi!
+          Nullam volutpat risus nec leo commodo, ut interdum diam laoreet.
+          Sed non consequat odio. Admodum accumsan disputationi eu sit.
+          Vide electram sadipscing et per. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!
+        </p>
+      </div>
+    </div>
+
+    <a class="button" href="#contact-form">Let's chat</a>
+
+<!-- <div class="circle">
+  <div class="big_circle">
+    <%= image_tag "big-circle.svg" %>
+  </div>
+</div> -->
+
+  </section>
+
 </div>
-
-<section class="home_banner">
-
-
-<div class='home_header'>
-  <%= link_to "About", welcome_about_path %>
-  <%#= link_to "Personal", welcome_personal_path %>
-  <%= image_tag "himeji-castle.png" %>
-  <%#= link_to "Professional", welcome_professional_path %>
-  <%= link_to "Contact", welcome_contact_path %>
-</div>
-
-
-<div class="home_banner-content">
-  <h1> Welcome to Cesar castle </h1>
-  <p>
-  I am a business professional with knowledge about many industries
-  and also a developer now like the matrix ones
-  </p>
-</div>
-
-<a class="button" href="#contact-form">Let's chat</a>
-
-</section>
-
-
